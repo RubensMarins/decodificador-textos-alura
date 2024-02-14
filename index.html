@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo__alura" src="./assets/logo alura.png" alt="Logo da Alura">
+
+        <p class="cabecalho__titulo">Decodificador de Textos</p>
+
+    </header>
+
+
+    <main>
+
+        <section class="apresentacao">
+
+            <div class="apresentacao__texto">
+                <textarea class="apresentacao__texto__area" id="texto" cols="50" rows="10"
+                    placeholder="Digite seu texto, apenas letras minúsculas e sem acento!"></textarea>
+            </div>
+            <div class="apresentacao__botoes">
+                <button type="button" onclick="escolhaCodificar()" id="codificar">Criptografar</button>
+                <button type="button" onclick="escolhaDecodificar()" id="decodificar">Descriptografar</button>
+            </div>
+            <div class="apresentacao__resultado">
+                <textarea class="apresentacao__resultado__area" id="resultado" readonly cols="50" rows="10"></textarea>
+            </div>
+            <div class="botao__copiar">
+                <button type="button" onclick="copiarTexto()" id="copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Rubens Franco Marins</p>
+        <a class="link__linkedin" href="https://linkedin.com/in/rubens-f-marins">
+            <img src="./assets/linkedin.png" alt="imagem linkedin">
+        </a>
+        <a class="link__github" href="https://github.com/RubensMarins">
+            <img src="./assets/github.png" alt="imagem github">
+        </a>
+    </footer>
+</body>
+
+</html>
