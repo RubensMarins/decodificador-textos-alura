@@ -333,3 +333,62 @@ footer {
         font-size: 13px;
 
     }
+}
+
+@media (max-width: 320px) {
+
+    body {
+        height: 100px;
+        background-size: 80px 80px;
+        background-position: bottom;
+        background-position-x: left;
+    }
+
+
+    .logo__alura {
+
+        margin-left: 100px;
+
+    }
+
+
+
+    .cabecalho__titulo {
+        margin-top: -30px;
+        text-align: center;
+        padding: 10%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .apresentacao {
+        padding: 15px;
+    }
+
+    [id=codificar] {
+        font-size: 8px;
+        padding: 8px;
+        margin-left: -5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    [id=decodificar] {
+        font-size: 8px;
+        padding: 8px;
+
+    }
+
+
+    [id=copiar] {
+        margin-top: 10px;
+        padding: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        font-size: 13px;
+
+    }
+}
